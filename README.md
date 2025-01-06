@@ -1,6 +1,5 @@
 # Parallel-Computing-Note
 <h2 id="65c4ba2387f7eb9eb19a3404f6e9e578"></h2>
-[](...menustart)
 
 - [并行计算key concept](#e9baed1ff669cdf45540a3cc4a489e1d)
     - [why thread block?](#7013df2804f996276490d1bd5ed46b62)
