@@ -53,8 +53,9 @@ The thread are actually executed by a hardware called **streaming multiprocessor
     - that is , all threads in the same block would be assigned to the same SM.
     - Up to **8** blocks to each SM as resource allows, This is a language level constraint.
     - Fermi generation SM can take up to 1536 threads
-        - could be 256 (threads/block) * 6 blocks
-        - or 512 (threads/block) * 3 blocks
+        - could be 256 (threads/block) * 6 blocks - too many thread blocks for SM
+        - or 384 (threads/block) * 4 blocks - just the right number
+        - or 512 (threads/block) * 3 blocks  - not enough to fully utilize the SM
 - SM maintains thread/block index
 - SM manages / schedules thread execution
 
